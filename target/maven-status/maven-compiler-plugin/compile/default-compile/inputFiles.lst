@@ -1,9 +1,0 @@
-/home/zaki/Codebase/simpledb/src/main/java/simpledb/App.java
-/home/zaki/Codebase/simpledb/src/main/java/simpledb/relational/core/constant/ColumnType.java
-/home/zaki/Codebase/simpledb/src/main/java/simpledb/relational/core/constant/Keys.java
-/home/zaki/Codebase/simpledb/src/main/java/simpledb/relational/core/model/Column.java
-/home/zaki/Codebase/simpledb/src/main/java/simpledb/relational/core/model/DBObject.java
-/home/zaki/Codebase/simpledb/src/main/java/simpledb/relational/core/model/Database.java
-/home/zaki/Codebase/simpledb/src/main/java/simpledb/relational/core/model/Row.java
-/home/zaki/Codebase/simpledb/src/main/java/simpledb/relational/core/model/Schema.java
-/home/zaki/Codebase/simpledb/src/main/java/simpledb/relational/core/model/Table.java
