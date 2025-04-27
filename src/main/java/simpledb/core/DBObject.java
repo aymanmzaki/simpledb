@@ -1,4 +1,4 @@
-package simpledb.relational.core.model;
+package simpledb.core;
 
 import simpledb.relational.core.constant.Keys;
 import org.slf4j.Logger;

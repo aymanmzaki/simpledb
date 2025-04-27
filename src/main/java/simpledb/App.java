@@ -2,8 +2,8 @@ package simpledb;
 
 import simpledb.relational.core.constant.ColumnType;
 import simpledb.relational.core.model.Column;
-import simpledb.relational.core.model.Database;
-import simpledb.relational.core.model.Schema;
+import simpledb.relational.core.model.RelDB;
+import simpledb.core.Schema;
 import simpledb.relational.core.model.Table;
 
 /**
@@ -12,7 +12,7 @@ import simpledb.relational.core.model.Table;
 public class App {
     public static void main(String[] args) {
         Schema schema = new Schema("newSchema");
-        Database db = new Database("test");
+        RelDB db = new RelDB("test");
         schema.addDB(db);
         Table table = new Table("testTable");
         db.addTable(table);
@@ -31,7 +31,5 @@ public class App {
         table.addRow("5", "Tom", "60", "tom@example.com", "2222222222", "654 Maple St");
 
         schema.getSchemaInfo();
-
-        System.out.println("Hello World!");
     }
 }

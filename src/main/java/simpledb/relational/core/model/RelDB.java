@@ -1,16 +1,19 @@
 package simpledb.relational.core.model;
 
+import simpledb.core.DB;
+import simpledb.core.DBObject;
 import simpledb.relational.core.constant.Keys;
 
-import java.util.*;
+import java.util.HashMap;
+import java.util.Map;
 
-public class Database extends DBObject {
+public class RelDB extends DB{
     private Map<String,Table> tables;
 
-    public Database(String name) {
+    public RelDB(String name) {
         super(name);
         this.tables = new HashMap<>();
-        logger.info("Database created: {} " , name);
+        logger.info("RelDB created: {} " , name);
     }
 
     public Map<String,Table> getTables() {

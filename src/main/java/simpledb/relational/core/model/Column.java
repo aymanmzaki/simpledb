@@ -12,7 +12,7 @@ public class Column {
     ColumnType type;
     @Builder.Default
     String description = "";
-    String defaultValu;
+    String defaultValue;
     @Builder.Default
     boolean nullable = true;
     @Builder.Default

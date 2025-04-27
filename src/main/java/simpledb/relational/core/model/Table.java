@@ -1,6 +1,7 @@
 package simpledb.relational.core.model;
 
 import lombok.Getter;
+import simpledb.core.DBObject;
 import simpledb.relational.core.constant.Keys;
 
 import java.util.*;
